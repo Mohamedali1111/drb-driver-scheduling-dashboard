@@ -1,23 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
-import type { NavItem } from '../types';
 
 /**
  * Home page component for the DRB Driver Scheduling Dashboard
  * Main landing page with navigation and basic layout
  */
 const Home: React.FC = () => {
-  // Sample navigation items
-  const navItems: NavItem[] = [
-    { label: 'Dashboard', href: '/dashboard' },
-    { label: 'Drivers', href: '/drivers' },
-    { label: 'Routes', href: '/routes' },
-    { label: 'Assignments', href: '/assignments' },
-  ];
-
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <Header navItems={navItems} />
+      <Header />
       
       <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
         <div className="px-4 py-6 sm:px-0">
