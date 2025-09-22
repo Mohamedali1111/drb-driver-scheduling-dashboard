@@ -6,8 +6,9 @@ A modern, responsive logistics management web application built for the **DRB In
 
 The Driver Scheduling Dashboard is a comprehensive frontend-only logistics management system designed to simulate real-world dispatch operations used by delivery and transportation companies. Built with modern web technologies, it provides dispatchers with powerful tools to manage driver schedules, route assignments, and availability tracking in a clean, professional interface.
 
-## 🚀 GitHub
+## 🚀 Live Demo & GitHub
 
+🔗 **Live Deployment (Vercel)**: [https://drb-driver-scheduling-dashboard.vercel.app](https://drb-driver-scheduling-dashboard.vercel.app)  
 🧑‍💻 **GitHub Repository**: [https://github.com/Mohamedali1111/drb-driver-scheduling-dashboard.git](https://github.com/Mohamedali1111/drb-driver-scheduling-dashboard.git)
 
 ## 🛠️ Tech Stack
