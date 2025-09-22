@@ -6,11 +6,9 @@
 export interface Driver {
   id: string;
   name: string;
-  email: string;
   phone: string;
-  licenseNumber: string;
-  licenseExpiry: Date;
-  status: 'active' | 'inactive' | 'suspended';
+  licenseId: string;
+  status: 'available' | 'assigned' | 'on_leave';
   createdAt: Date;
   updatedAt: Date;
 }
