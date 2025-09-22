@@ -43,7 +43,7 @@ const Routes: React.FC = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Header />
       
-      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <main className="max-w-7xl mx-auto pt-24 pb-6 px-4 sm:px-6 lg:px-8">
         <div className="px-4 py-6 sm:px-0">
           {/* Page Header */}
           <div className="mb-8">
@@ -61,7 +61,7 @@ const Routes: React.FC = () => {
           </div>
 
           {/* Routes List */}
-          <div className="bg-white dark:bg-gray-800 shadow-sm rounded-lg border border-gray-200 dark:border-gray-700">
+          <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden">
             <div className="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
               <h2 className="text-lg font-medium text-gray-900 dark:text-white">
                 All Routes ({routes.length})
@@ -101,7 +101,7 @@ const Routes: React.FC = () => {
                   </thead>
                   <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
                     {routes.map((route) => (
-                      <tr key={route.id} className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                      <tr key={route.id} className="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-white">
                           {route.routeCode}
                         </td>

@@ -131,7 +131,7 @@ const Dashboard: React.FC = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Header />
       
-      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <main className="max-w-7xl mx-auto pt-24 pb-6 px-4 sm:px-6 lg:px-8">
         <div className="px-4 py-6 sm:px-0">
           {/* Page Header */}
           <div className="mb-8">
@@ -144,7 +144,7 @@ const Dashboard: React.FC = () => {
           </div>
 
           {/* Stats Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             <div className="bg-white dark:bg-gray-800 overflow-hidden shadow rounded-lg">
               <div className="p-5">
                 <div className="flex items-center">
@@ -245,7 +245,7 @@ const Dashboard: React.FC = () => {
           {/* Two Column Layout */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Routes Table */}
-            <div className="bg-white dark:bg-gray-800 shadow-sm rounded-lg border border-gray-200 dark:border-gray-700">
+            <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden">
               <div className="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                   <h2 className="text-lg font-medium text-gray-900 dark:text-white">
@@ -323,7 +323,7 @@ const Dashboard: React.FC = () => {
                       </tr>
                     ) : (
                       filteredRoutes.map((route) => (
-                        <tr key={route.id} className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <tr key={route.id} className="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
                           <td className="px-6 py-4 whitespace-nowrap">
                             <div className="flex flex-col">
                               <div className="text-sm font-medium text-gray-900 dark:text-white">
@@ -362,7 +362,7 @@ const Dashboard: React.FC = () => {
             </div>
 
             {/* Drivers Table */}
-            <div className="bg-white dark:bg-gray-800 shadow-sm rounded-lg border border-gray-200 dark:border-gray-700">
+            <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden">
               <div className="px-6 py-4 border-b border-gray-200 dark:border-gray-700">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                   <h2 className="text-lg font-medium text-gray-900 dark:text-white">
@@ -450,7 +450,7 @@ const Dashboard: React.FC = () => {
                       </tr>
                     ) : (
                       filteredDrivers.map((driver) => (
-                        <tr key={driver.id} className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                        <tr key={driver.id} className="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200">
                           <td className="px-6 py-4 whitespace-nowrap">
                             <div className="flex flex-col">
                               <div className="text-sm font-medium text-gray-900 dark:text-white">

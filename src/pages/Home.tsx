@@ -10,21 +10,21 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Header />
       
-      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        <div className="px-4 py-6 sm:px-0">
+      <main className="max-w-7xl mx-auto pt-24 pb-6 px-4 sm:px-6 lg:px-8">
+        <div className="space-y-12">
           {/* Welcome section */}
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
               Welcome to DRB Driver Scheduling Dashboard
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-12">
               Manage your drivers, routes, and assignments efficiently
             </p>
           </div>
 
           {/* Feature cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow rounded-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-lg rounded-xl hover:shadow-xl transition-shadow duration-300">
               <div className="p-5">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
@@ -48,7 +48,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow rounded-lg">
+            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-lg rounded-xl hover:shadow-xl transition-shadow duration-300">
               <div className="p-5">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow rounded-lg">
+            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-lg rounded-xl hover:shadow-xl transition-shadow duration-300">
               <div className="p-5">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
@@ -96,7 +96,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow rounded-lg">
+            <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-lg rounded-xl hover:shadow-xl transition-shadow duration-300">
               <div className="p-5">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
@@ -122,7 +122,7 @@ const Home: React.FC = () => {
           </div>
 
           {/* Status message */}
-          <div className="mt-8 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-md p-4">
+          <div className="mt-12 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-xl p-6">
             <div className="flex">
               <div className="flex-shrink-0">
                 <svg className="h-5 w-5 text-blue-400" fill="currentColor" viewBox="0 0 20 20">

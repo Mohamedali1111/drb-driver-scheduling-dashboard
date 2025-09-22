@@ -163,7 +163,7 @@ const Calendar: React.FC = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Header />
       
-      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+      <main className="max-w-7xl mx-auto pt-24 pb-6 px-4 sm:px-6 lg:px-8">
         <div className="px-4 py-6 sm:px-0">
           {/* Page Header */}
           <div className="mb-8">
@@ -176,7 +176,7 @@ const Calendar: React.FC = () => {
           </div>
 
           {/* Controls */}
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-6 mb-6">
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6 mb-6">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
               {/* Week Navigation */}
               <div className="flex items-center gap-4">
@@ -226,7 +226,7 @@ const Calendar: React.FC = () => {
           </div>
 
           {/* Calendar Grid */}
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
             <div className="overflow-x-auto">
               <table className="min-w-full">
                 {/* Header Row */}
@@ -303,7 +303,7 @@ const Calendar: React.FC = () => {
           </div>
 
           {/* Legend */}
-          <div className="mt-6 bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-4">
+          <div className="mt-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6">
             <h3 className="text-sm font-medium text-gray-900 dark:text-white mb-3">Legend</h3>
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center gap-2">
