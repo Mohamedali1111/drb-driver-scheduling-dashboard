@@ -16,14 +16,12 @@ export interface Driver {
 // Route interface representing a delivery route
 export interface Route {
   id: string;
-  name: string;
-  description?: string;
-  startLocation: string;
-  endLocation: string;
-  distance: number; // in kilometers
-  estimatedDuration: number; // in minutes
-  difficulty: 'easy' | 'medium' | 'hard';
-  status: 'active' | 'inactive' | 'maintenance';
+  routeCode: string;
+  origin: string;
+  destination: string;
+  startTime: string; // datetime-local format
+  endTime: string; // datetime-local format
+  assignedDriverId?: string; // optional driver assignment
   createdAt: Date;
   updatedAt: Date;
 }

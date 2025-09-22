@@ -4,3 +4,4 @@
 
 export { default as Home } from './Home';
 export { default as Drivers } from './Drivers';
+export { default as Routes } from './Routes';
