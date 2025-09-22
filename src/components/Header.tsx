@@ -20,6 +20,7 @@ const Header: React.FC<HeaderProps> = ({
     { label: 'Dashboard', href: '/', icon: '📊' },
     { label: 'Drivers', href: '/drivers', icon: '👥' },
     { label: 'Routes', href: '/routes', icon: '🛣️' },
+    { label: 'Calendar', href: '/calendar', icon: '📅' },
   ];
 
   /**
